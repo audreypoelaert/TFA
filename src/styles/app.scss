@@ -1,2 +1,13 @@
 @import 'utils/variables';
 @import 'components/type';
+
+
+body{
+    background-color: #011C1E;
+}
+
+.denivele{
+    background-image: url(../assets/images/dénivelé.svg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
