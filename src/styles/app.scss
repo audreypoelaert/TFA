@@ -1,13 +1,23 @@
+/*!
+* TFA project
+
+* Projet scolaire-TFA-B2G2_2022
+
+* Option DWT
+
+*@author : Audrey Poelaert
+*/
+
+@import '_normalize.css';
 @import 'utils/variables';
 @import 'components/type';
+@import '_layout';
+@import '_grid';
+@import '_list';
+@import '_animation';
+@import '_footer';
+@import '_header';
+@import '_pictures';
+@import '_main';
 
 
-body{
-    background-color: #011C1E;
-}
-
-.denivele{
-    background-image: url(../assets/images/dénivelé.svg);
-    background-repeat: no-repeat;
-    background-position: 0%;
-}
