@@ -1,12 +1,38 @@
 body{
     background-color: $body-bg-color;
+    max-width: 1400px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
+
+
+
+.logo-app{
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 325px;
+}
+
+.logo-app__el{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .denivele{
     background-image: url(../assets/images/landing/dénivelé.svg);
     background-repeat: no-repeat;
-    width: 1290px;
-    height: 120px;
+    background-position: bottom center;
+    width: 325px;
+    height: 100px;
 }
 
 .denivele--02{
@@ -19,4 +45,52 @@ body{
 
 .denivele--04{
     background-image: url(../assets/images/landing/denivele04.svg);
+}
+
+.button{
+    background-color: $bt-bg;
+    color: $bt-color;
+    text-transform: $bt-text-maj;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-weight: $bt-text-weight;
+    font-size: $bt-text-size;
+}
+
+.photo{
+    width: 325px;
+    margin: 0;
+    padding: 0;
+}
+
+.fig{
+    margin: 0;
+    padding: 0;
+}
+
+.store{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*tablette*/
+@media (min-width: 500px){
+    .denivele{
+        width: 1000px;
+        height: 150px;
+    }
+
+}
+
+
+
+/*desktop*/
+@media (min-width: 1000px){
+    .denivele{
+        width: 1400px;
+        height: 200px;
+    }
+
 }

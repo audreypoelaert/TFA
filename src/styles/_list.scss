@@ -1,18 +1,27 @@
-/*Menu*/
-.menu{
-    &__liste{
+ul{
+    list-style-type: none;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    font-weight: 700;
     
-    }
+}
 
-    &__el{
+a:visited{
+    color: #74d1b1;
+}
 
-        a{
-            text-decoration: none;
+a:focus{
+    background: #02484e;
+}
 
-            &:hover,
-            &:focus{
-                text-decoration: underline;
-            }
-        }
-    }
+a:hover{
+    color: #78D1FF;
+}
+
+a:active{
+    background-color: #78D1FF;
+    color: #011C1E;
 }
