@@ -1,6 +1,11 @@
 body{
     background-color: $body-bg-color;
     max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
     margin-left: 18px;
     margin-right: 18px;
 }
@@ -31,8 +36,9 @@ body{
     background-image: url(../assets/images/landing/dénivelé.svg);
     background-repeat: no-repeat;
     background-position: bottom center;
-    width: 325px;
     height: 100px;
+    margin-bottom: 125px;
+    margin-top: 18px;
 }
 
 .denivele--02{
@@ -48,6 +54,11 @@ body{
 }
 
 .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button__el{
     background-color: $bt-bg;
     color: $bt-color;
     text-transform: $bt-text-maj;
@@ -62,6 +73,7 @@ body{
     width: 325px;
     margin: 0;
     padding: 0;
+    
 }
 
 .fig{
@@ -72,16 +84,76 @@ body{
 .store{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
+
+.parcours{
+    border-radius: 20px;
+}
+
+.parcours--mod{
+    margin-bottom: 18px;
+}
+
 
 
 /*tablette*/
 @media (min-width: 500px){
     .denivele{
-        width: 1000px;
-        height: 150px;
+        height: 200px;
     }
 
+    .section2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+
+    .section2--mod{
+        margin-right: 32px;
+    }
+
+    .carte{
+        text-align: center;
+    }
+
+    .carte__el{
+        width: 600px;
+    }
+
+    .fonctionnalite{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .fonctionnalite--left{
+        flex-direction: row-reverse;
+    }
+
+    .fonc-marge-l{
+        margin-left: 34px;
+    }
+
+    .fonc-marge-r{
+        margin-right: 34px;
+    }
+
+    .text-right{
+        text-align: right;
+    }
+
+    .div-parcours{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .store{
+        display: flex;
+        justify-content: space-around;
+    }
+    
 }
 
 
@@ -89,7 +161,7 @@ body{
 /*desktop*/
 @media (min-width: 1000px){
     .denivele{
-        width: 1400px;
+        width: 1000px;
         height: 200px;
     }
 

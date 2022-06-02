@@ -1,0 +1,41 @@
+/*tablette*/
+@media (min-width: 500px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+
+    .tgrid-start01{
+        grid-column-start: 1;
+    }
+
+    .tgrid-start02{
+        grid-column-start: 2;
+    }
+
+    .tgrid-start03{
+        grid-column-start: 3;
+    }
+
+    .tgrid-start04{
+        grid-column-start: 4;
+    }
+
+    .tgrid-end01{
+        grid-column-end: 1;
+    }
+
+    .tgrid-end02{
+        grid-column-end: 2;
+    }
+
+    .tgrid-end03{
+        grid-column-end: 3;
+    }
+
+    .tgrid-end04{
+        grid-column-end: -1;
+    }
+}

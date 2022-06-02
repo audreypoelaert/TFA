@@ -1,5 +1,24 @@
-/*.decouverte{
+.decouverte{
     background-image: url(../assets/images/velo-landing-bg.jpg);
     filter: blur(1rem);
     width: 325px;
-}*/
+    border-left: 10px solid $bt-bg;
+    margin-top: 80px;
+}
+
+.depassement{
+    border-left: 10px solid $bt-bg;
+    margin-top: 80px;
+    width: 325px;
+}
+
+@media (min-width: 500px){
+    
+    .decouverte{
+        width: 500px;
+    }
+
+    .depassement{
+        width: 500px;
+    }
+}
