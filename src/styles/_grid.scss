@@ -1,6 +1,6 @@
 /*tablette*/
 @media (min-width: 500px){
-    .grid{
+    .tgrid{
         display: grid;
         grid-template-columns: 1fr 2fr 2fr 1fr;
         column-gap: 18px;
@@ -36,6 +36,65 @@
     }
 
     .tgrid-end04{
+        grid-column-end: 4;
+    }
+
+    .tgrid-end05{
         grid-column-end: -1;
     }
+}
+
+/*Desktop*/
+@media (min-width: 1000px){
+    .dgrid{
+        display: grid;
+        grid-template-columns: 1fr 2fr 3fr 3fr 2fr 1fr;
+        column-gap: 18px;
+        row-gap: 18px;
+    }
+
+    .dgrid-start01{
+        grid-column-start: 1;
+    }
+
+    .dgrid-start02{
+        grid-column-start: 2;
+    }
+
+    .dgrid-start03{
+        grid-column-start: 3;
+    }
+
+    .dgrid-start04{
+        grid-column-start: 4;
+    }
+
+    .dgrid-start05{
+        grid-column-start: 5;
+    }
+
+    .dgrid-start06{
+        grid-column-start: 6;
+    }
+
+    .dgrid-end03{
+        grid-column-end: 3;
+    }
+
+    .dgrid-end04{
+        grid-column-end: 4;
+    }
+
+    .dgrid-end05{
+        grid-column-end: 5;
+    }
+
+    .dgrid-end06{
+        grid-column-end: 6;
+    }
+
+    .dgrid-end07{
+        grid-column-end: -1;
+    }
+    
 }
