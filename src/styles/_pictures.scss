@@ -1,3 +1,4 @@
+/*landing page*/
 .decouverte{
     background-image: url(../assets/images/velo-landing-bg.jpg);
     width: 325px;
@@ -57,4 +58,76 @@
     .decouverte{
         margin-top: 0;
     }
+}
+
+/*case-study*/
+
+.papier{
+    background-image: url(../assets/images/case-study/prot_papier_bg.png);
+    border-left: 10px solid $bt-bg;
+}
+
+.hypothese{
+    background-image: url(../assets/images/case-study/test-card_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.canvas{
+    background-image: url(../assets/images/case-study/lean_canvas_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.mlogo{
+    background-image: url(../assets/images/case-study/logo_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.msport{
+    background-image: url(../assets/images/case-study/sport_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.mvelo{
+    background-image: url(../assets/images/case-study/velo_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.komoot{
+    background-image: url(../assets/images/case-study/komoot_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.lets{
+    background-image: url(../assets/images/case-study/LETS_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.open{
+    background-image: url(../assets/images/case-study/LETS_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.strava{
+    background-image: url(../assets/images/case-study/strava_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.user-journey{
+    background-image: url(../assets/images/case-study/user-journey-bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.test01{
+    background-image: url(../assets/images/case-study/test01@2x.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.test02{
+    background-image: url(../assets/images/case-study/test02_bg.jpg);
+    border-left: 10px solid $bt-bg;
+}
+
+.test03{
+    background-image: url(../assets/images/case-study/test03_bg.jpg);
+    border-left: 10px solid $bt-bg;
 }

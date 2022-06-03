@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>TFA project</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="description" content="travail de fin d'année">
+
+  <meta property="og:site_name" content="TFA – DWT – HEAJ"/>
+     <meta property="og:title" content="TFA – DWT – HEAJ"/>
+     <meta property="og:description" content="Case-study du projet Let's bike par Audrey Poelaert."/>
+     <meta property="og:type" content="website"/>
+     <meta property="og:url" content="https://audrey-poelaert.be/projets/tfa/"/>
+     <meta class="logometa" property="og:image" content="https://audrey-poelaert.be/projets/tfa/assets/images/logo-tfa.png"/>
+     <meta property="og:image:width" content="1800">
+     <meta property="og:image:height" content="945">
+     <meta property="og:image:height" content="945">
+
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@PoelaertAudrey">
+    <meta name="twitter:creator" content="@PoelaertAudrey">
+    <meta name="twitter:title" content="TFA">
+    <meta name="twitter:description" content="case-study du projet Let's bike par Audrey Poelaert.">
+    <meta name="twitter:image" content="https://audrey-poelaert.be/projets/tfa/assets/images/logo-tfa.png">
+
+    <link rel="icon" type="image/png" href="assets/images/logo-tfa.png"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles/app.css">
+
+  <script src="scripts/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img class="tfa" src="assets/images/logo-tfa.svg" alt="Logo du site du TFA"></a>
+  </header>
+
+  <main class="main">
+    <h1 class="title">Case-Study</h1>
+
+    <section>
+        <h2 class="title title--medium">Introduction</h2>
+
+        <p>Ce Case-Study vise à passer en revue les étapes de mon travail de fin d’année (TFA). C’est le plus gros projet de l’année. Ce travail a duré plus ou moins deux mois. Son but est de proposer un service dont le thème est libre. Installez-vous confortablement et découvrez toutes les étapes par lesquelles je suis passée pour créer ce projet.</p>
+    </section>
+
+    <section>
+        <h2 class="title title--medium">Recherche d’idées</h2>
+
+        <p>La recherche d'idées est vraiment une étape importante dans le processus de création. J’ai d’abord cherché des problématiques de la vie quotidienne. Ma première était sur le vélo, mais n’ayant rien défini de concret, j’ai changé d’idée pour partir sur la problématique du prix de l’essence. J’ai pensé créer une application qui recense toutes les pompes et qui montre les prix les plus bas. Mais en faisant des recherches, je me suis rendue compte qu’énormément d’applications proposaient déjà ce service (google maps, Gasoil Now, Waze, …). De plus, il m’a semblé important de prendre un sujet qui me tient vraiment à cœur, donc je suis revenue sur l’idée du vélo car c’est ma passion. Au bout d’une vingtaine de kilomètres, j’ai tendance à m'ennuyer, j'ai donc pensé à une application qui propose des parcours vélo avec une activité autre au milieu. Elle permettrait aux personnes qui aiment faire du vélo de s’amuser tout en se dépassant.</p>
+    </section>
+    
+    <section>
+        <h2 class="title title--medium">Interview découverte</h2>
+
+        <p>Afin de vérifier que mon projet intéressait les gens, j’ai interviewé quatorze personnes pour connaître leurs besoins, leurs avis, les problèmes qu’ils rencontrent à vélo, pourquoi éventuellement ils ont arrêté de rouler à vélo&#8239;… Au départ, je comptais viser toutes les personnes qui font du vélo (y compris les clubs), mais en discutant avec les gens de mon club, je me suis rendu compte qu’ils n’étaient pas vraiment mon public cible. Le club propose déjà tellement de choses (parcours pré-faits, rouler en groupe donc plus sécurisé, une voiture suiveuse en cas de crevaison ou d’ennuis techniques, un défibrillateur,&#8239;… ), et ils ne comptent pas vraiment changer tout cela. Grâce à ça, j’ai changé mon fusil d’épaule, je visais désormais des familles, des amis, des personnes seules qui souhaitent se balader sans prise de tête. Ces interviews m’ont aussi donné beaucoup d’idées de petites fonctionnalités (noter et commenter pour avoir un classement des meilleurs parcours, proposer des parcours téléchargeables pour ne pas utiliser les data mobiles,&#8239;…).</p>
+    </section>
+   
+    <section>
+        <h2 class="title title--medium">Hypothèse</h2>
+
+        <p>Après cela, j’ai réfléchi à une hypothèse sur le service à proposer. Je pourrai soit la confirmer, soit l’infirmer à la fin de ce travail. J’ai tout d’abord émis une hypothèse qui visait principalement les enfants&#8239;:&#8239;“Je crois que les enfants seront motivés pour faire du vélo si les parents leur proposent des activités intéressantes durant le parcours et je saurai que cela se vérifie si j’observe 10 enfants satisfaits de l’expérience.” Mais après réflexion, cette hypothèse était beaucoup trop centrée sur les enfants, alors que le potentiel de l’application est bien plus grand.</p>
+
+        <p>J’en ai donc fait une seconde&#8239;:&#8239;“Je crois que les gens seront motivés pour faire du vélo si des activités intéressantes leur sont proposées durant le parcours et je saurai que cela se vérifie si j’observe 10 personnes satisfaites de l’expérience.” Celle-ci non plus n’était pas satisfaisante et je l’ai retravaillée pour donner ceci&#8239;:</p>
+        <figure class="fig">
+          <img class="hypothese photo" src="assets/images/case-study/test-card@1x.jpg"
+          alt="Mon hypothèse"
+          srcset="assets/images/case-study/test-card@1x.jpg 1x,
+          assets/images/case-study/test-card@2x.jpg 2x"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Mon hypothèse.</figcaption>
+        </figure>
+
+        <p>Je ne connaissais pas ce principe d’hypothèse avant de me lancer dans ce TFA mais je sais maintenant qu’elle est très importante, tout comme le fait de répondre à des problématiques, de vérifier le marché,&#8239;…</p>
+
+        <p>J’ai complété un lean canvas, c’est un outil qui m’a permis de voir mon projet dans sa globalité (problèmes, solutions, segments clientèle, coûts,&#8239;…). Il m’a vraiment aidé à prendre en compte tout ce qui est important pour lancer mon projet et à prendre du recul par rapport à celui-ci.</p>
+        <figure class="fig">
+          <img class="canvas photo" src="assets/images/case-study/lean_canvas@1x.jpg"
+          alt="Mon hypothèse"
+          srcset="assets/images/case-study/lean_canvas@1x.jpg 1x,
+          assets/images/case-study/lean_canvas@2x.jpg 2x"
+          loading="lazy"
+          decoding="async">
+        </figure>
+        <figcaption>Lean canvas.</figcaption>
+    </section>
+    
+    <section>
+        <h2 class="title title--medium">Enquête</h2>
+
+        <p>Après ces étapes, j’avais la base de mon projet. Il était donc temps de créer un formulaire afin de préciser les fonctionnalités qui intéressent les utilisateurs. Vingt-trois personnes y ont répondu et voici les conclusions que j’en ai tiré&#8239;: globalement les gens sont très intéressés par mon projet. Ce qui les intéresse le plus, c’est d’avoir les informations importantes de la sortie et de pouvoir télécharger le parcours pour ne pas utiliser les données mobiles. Ensuite, c'est d’avoir des parcours sécurisés, des parcours personnalisés, des activités durant le tour (activités les plus intéressantes&#8239;: point de vue et glace/boulangerie). Puis c’est de noter et commenter les parcours. En dernier, les conseils météos mais j’ai décidé de les laisser tomber parce que les gens semblaient moins intéressés, sans doute parce qu’il y a déjà beaucoup d’applications qui le proposent.</p>
+    
+        <p>Pour en savoir plus sur les activités qui intéressent vraiment les utilisateurs et pour mettre en place un système de filtres, j’ai fait un deuxième formulaire. Quinze personnes y ont répondu et voici les conclusions que j’en ai tiré&#8239;:</p>
+        <ul>
+          <li> en moyenne les gens sont prêts à faire 10km de voiture pour aller au début du parcours&#8239;;</li> 
+          <li> en moyenne, les gens sont plus enclins à faire 1 seule activité sur leur tour&#8239;;</li>
+          <li> l’activité doit durer en moyenne entre 15 et 30 minutes&#8239;.</li>
+        </ul>
+        
+        <h3 class="title title--small">Les activités par ordre de préférence en fonction des catégories</h3>
+    
+        <p>Seul&#8239;:</p>
+        <ul>
+          <li> visites&#8239;;</li>
+          <li> boire et manger (terrasse)&#8239;;</li>
+          <li> regarder les paysages/points de vue&#8239;.</p></li>
+        </ul>
+          
+        
+        <p>Entre amis&#8239;:</p>
+        <ul>
+          <li> activité sportive ou ludique&#8239;;</li>
+          <li> boire/manger&#8239;;</li>
+          <li> visite culturelle&#8239;;</li>
+          <li> aller jusqu’à un point précis, une balade avec un objectif&#8239;;</li>
+          <li> piscine, accrobranche, escape game, etc.</li>
+        </ul>
+        
+    
+        <p>En famille&#8239;:</p>
+        <ul>
+          <li> repos&#8239;;</li>
+          <li> manger/boire&#8239;;</li>
+          <li> balade la plus tranquille possible&#8239;;</li>
+          <li> s'asseoir, se rafraîchir&#8239;;</li>
+          <li> piscine, activités sportives, plage, restaurant, visite (musée, etc.).</li>
+        </ul>
+    
+        <p>En amoureux&#8239;:</p>
+        <ul>
+          <li> manger/boire&#8239;;</li>
+          <li> restaurant, point de vue, visite.</li>
+        </ul>
+
+
+        <video class="video" autoplay controls>
+          <source src="assets/images/case-study/enquete.mp4" type="video/mp4">
+        </video>
+        <figcaption>Mes enquêtes.</figcaption>
+    </section>
+
+    <section>
+      <h2 class="title title--medium">Moodboard</h2>
+
+      <p>L’inspiration est vraiment essentielle pour créer un design intéressant et innovant. L’étape du moodboard est importante pour moi, elle me permet de rentrer dans mon projet et de m’imaginer le style, les couleurs, les pictos, l’univers général que je veux donner à mon application.</p>
+
+      <figure class="fig">
+        <img class="mlogo photo" src="assets/images/case-study/logo@1x.jpg"
+        alt="Moodboard logo"
+        srcset="assets/images/case-study/logo@1x.jpg 1x,
+        assets/images/case-study/logo@2x.jpg 2x"
+        loading="lazy"
+        decoding="async">
+        <figcaption>Moodboard thème logo.</figcaption>
+      </figure>
+
+      <figure class="fig">
+        <img class="msport photo" src="assets/images/case-study/sport@1x.jpg"
+        alt="Moodboard sport"
+        srcset="assets/images/case-study/sport@1x.jpg 1x,
+        assets/images/case-study/sport@2x.jpg 2x"
+        loading="lazy"
+        decoding="async">
+        <figcaption>Moodboard thème sport.</figcaption>
+      </figure>
+
+      <figure class="fig">
+        <img class="mvelo photo" src="assets/images/case-study/velo@1x.jpg"
+        alt="Moodboard vélo"
+        srcset="assets/images/case-study/velo@1x.jpg 1x,
+        assets/images/case-study/velo@2x.jpg 2x"
+        loading="lazy"
+        decoding="async">
+        <figcaption>Moodboard thème vélo.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2 class="title title--medium">Veille</h2>
+
+      <p>L’audit, ou autrement dit la veille concurrentielle, est aussi très importante. A l’heure actuelle, on trouve tout sur internet. Il est évident que si j’ai eu l’idée de faire une application qui propose des tours en vélo, quelqu’un d’autre l’a déjà eue avant moi. Aller voir ce qui se fait ailleurs, en retirer les bonnes pratiques, effectuer un pivot si nécessaire,&#8239;… est primordial. J’ai analysé les sites suivants&#8239;: Komoot, Strava, OpenRunner et LETSBIKE. 
+      Cela m’a permis de savoir quels filtres sont les plus utiles, de voir les fonctionnalités les plus appréciées,&#8239;…</p>
+  
+      <div>
+        <h3 class="title title--small"><a href="https://www.komoot.fr/" target="_blank">Komoote</a></h3>
+        <h4 class="title title--mini">Points positifs</h4>
+        <ul>
+          <li> quand on s’inscrit pour la première fois, il nous demande ce qu’on préfère faire (1er filtre)&#8239;;</li>
+          <li> moyen de suivre ses amis via Facebook&#8239;;</li>
+          <li> eux aussi utilisent des cartes hors connexion => mon idée de télécharger le parcours pour ne pas utiliser la 4G n’est donc pas innovante&#8239;;</li>
+          <li> moyen de synchronisation avec Garmin&#8239;;</li>
+          <li> filtre pour le sport, pour la localisation et pour les kilomètres&#8239;;</li>
+          <li> on peut voir les parcours sous forme de liste ou sous forme de carte. Utile pour les gens qui sont plus visuels&#8239;;</li>
+          <li> moyen de donner son avis et de commenter&#8239;;</li>
+          <li> moyen d’enregistrer le parcours et de l’exporter vers un GPS&#8239;;</li>
+          <li> donne les prévisions météo&#8239;;</li>
+          <li> donne des infos importantes et un résumé du tour&#8239;;</li>
+          <li> donne plein d’idées de tours à faire un peu partout&#8239;;</li>
+          <li> idées de voyages à vélo&#8239;;</li>
+          <li> laisse les gens s’exprimer en créant leur propre “section” avec leur propre challenge&#8239;;</li>
+          <li> pour le planificateur d’itinéraire, les filtres sont à gauche et semblent clairs, on peut aussi mettre sa condition physique&#8239;;</li>
+          <li> le parcours aller-simple est bien compréhensible&#8239;;</li>
+          <li> il y a moyen de partager et d’enregistrer le tour&#8239;;</li>
+          <li> on peut inviter des amis&#8239;;</li>
+          <li> propose des packs spéciaux.</p></li></ul>
+
+          <h4 class="title title--mini">Points négatifs</h4>
+          <ul>
+            <li> la page découvrir n’en finit pas, c’est trop long. Il manque peut-être un filtre afin de la réduire&#8239;?</li>
+            <li> leur système de boucle est à revoir, je demande une boucle et il me fait juste un aller-retour&#8239;;</li>
+            <li> on ne comprend pas bien si finalement on doit utiliser la 4G ou pas, ce n’est pas clair&#8239;;</li>
+            <li> pareil, on peut enregistrer les tours ou les mettre sur un GPS mais je ne trouve pas comment lancer l’itinéraire directement&#8239;;</li>
+            <li> si on veut avoir la navigation (comme Waze ou Google Maps) il faut payer et choisir un pack.</li>
+        </ul>
+    
+        <p>Ce qu’on peut faire gratuitement sur Komoot : créer un itinéraire (mais les boucles sont à revoir) et on ne peut télécharger le parcours que sur un GPS, avoir des circuits déjà pré-faits et des idées de parcours.</p>
+    
+        <p>En conclusion, l’application Komoot me semble assez claire et complète. Même si on choisit de ne pas payer, on peut quand même avoir accès à de chouettes fonctionnalités.</p>
+
+        <figure class="fig">
+          <img class="komoot photo" src="assets/images/case-study/komoot@1x.jpg"
+          alt="Site de komoot"
+          srcset="assets/images/case-study/komoot@1x.jpg 1x,
+          assets/images/case-study/komoot@2x.jpg 2x"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Site de Komoot.</figcaption>
+        </figure>
+      </div>
+      
+      <div>
+        <h3 class="title title--small"><a href="https://letsbike.lu/fr/home-fr/" target="_blank">LETSBIKE</a></h3>
+    
+        <p>J’ai découvert cette application seulement le 23 mai à cause de son mauvais référencement. J’avais déjà choisi mon nom d’application et mis au point ses fonctionnalités bien avant cette découverte. Le site LETSBIKE propose un livre et une application. Si on ne se concentre que sur l’application, même si au premier abord elle peut sembler fort similaire à la mienne, ce n’est pas vraiment le cas&#8239;:</p>
+        <ul>
+          <li> elle propose trente parcours dans tout le Luxembourg sans se soucier du domicile de l’utilisateur. Il pourrait par exemple devoir faire deux heures de route pour rejoindre un parcours, contrairement à mon application qui les propose en fonction de la localisation&#8239;;</li>
+          <li> elle ne propose que des parcours prédéfinis, l’utilisateur ne peut pas créer les siens ni les partager avec les autres&#8239;;</li>
+          <li> les activités proposées se résument aux points de vue et aux restaurants alors que je propose brasserie, café, points de vue, glace/boulangerie et visites&#8239;;</li>
+          <li> seulement trois de ses parcours ne sont pas payants&#8239;;</li>
+          <li> mon application est bien plus complète, l’utilisateur peut trouver des parcours prédéfinis par mon application mais aussi mis en ligne par d’autres utilisateurs (il peut d’ailleurs mettre des commentaires et noter les parcours). Grâce à un système de filtres, elle propose des parcours personnalisés en fonction des besoins de chaque utilisateur. Il y a aussi moyen de créer son propre itinéraire, d’avoir accès à son historique et à ses favoris.</li>
+        </ul>
+    
+        <p>Lors d’un suivi, Monsieur Bourgeaux m’a dit que je ne devais pas changer le nom de mon application (Let’s bike).
+        Cette petite mise au point me semblait importante afin d’éviter tout quiproquo.</p>
+    
+        <p>Revenons à l’analyse de LETSBIKE.</p>
+        
+        <h4 class="title title--mini">Points positifs</h4>
+        <ul>
+          <li> propose des tours dans tout le Luxembourg&#8239;;</li>
+          <li> propose plusieurs points de restauration dans le parcours. Laisse une certaine liberté, on n’est pas obligé de s’arrêter à un endroit bien précis, on a le choix&#8239;;</li>
+          <li> détails clairs et simples.</li></ul>
+        
+        <h4 class="title title--mini">Points négatifs</h4>
+        <ul>
+          <li> ne propose pas de tour en fonction de la position&#8239;;</li>
+          <li> propose peut-être trop d’arrêts&#8239;? Un parcours de 100km avec 3 arrêts restaurant, cela prend beaucoup de temps&#8239;;</li>
+          <li> seuls 3 parcours sont gratuits.</li>
+        </ul>
+
+        <figure class="fig">
+          <img class="lets photo" src="assets/images/case-study/LETS@1x.jpg"
+          alt="Site de LETSBIKE"
+          srcset="assets/images/case-study/LETS@1x.jpg 1x,
+          assets/images/case-study/LETS@2x.jpg 2x"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Application LETSBIKE.</figcaption>
+        </figure>
+      </div>
+        
+      <div>
+        <h3 class="title title--small"><a href="https://www.openrunner.com/" target="_blank">OpenRunner</a></h3>
+        <h4 class="title title--mini">Points positifs</h4>
+        <ul>
+          <li> création de parcours simples&#8239;;</li>
+          <li> c’est plus ou moins toujours le même système de filtres pour tous les sites (type d’activité, distance, …)&#8239;;</li>
+          <li> comme pour Komoot, OpenRunner offre des packs payants&#8239;;
+          <li> propose des offres pour les clubs.</li>
+        </ul>
+    
+        <p>+- n’est pas spécifique au vélo, propose les mêmes services aux joggeurs, trailers, kayakistes, etc.</p>
+        
+        <h4 class="title title--mini">Points négatifs</h4>
+        <ul>
+          <li> permet uniquement de créer des parcours et les partager.</li>
+        </ul>
+
+        <figure class="fig">
+          <img class="open photo" src="assets/images/case-study/openrunner@1x.jpg"
+          alt="Site de LETSBIKE"
+          srcset="assets/images/case-study/openrunner@1x.jpg 1x,
+          assets/images/case-study/openrunner@2x.jpg 2x"
+          loading="lazy"
+          decoding="async">
+        </figure>
+        <figcaption>Site OpenRunner.</figcaption>
+      </div>
+        
+      <div>
+        <h3 class="title title--small"><a href="https://www.strava.com/onboarding" target="_blank">Strava</a></h3>
+        <h4 class="title title--mini">Points positifs</h4>
+        <ul>
+          <li> site très lisible, très clair. Facile de s’y retrouver. Beaucoup d’informations mais comme les sections sont bien faites, on ne se perd pas&#8239;;</li>
+          <li> possibilité de se créer des objectifs afin de rester en forme&#8239;;</li>
+          <li> calendrier qui montre les entraînements que l’on a faits. C’est très intéressant et beaucoup plus visuel&#8239;;</li>
+          <li> petit jeu entre les utilisateurs, classement de celui qui a été le plus rapide sur un segment. On peut rechercher des segments et essayer de battre ses amis/adversaires ; on peut aussi battre ses propres records personnels (historique de ses activités sportives)&#8239;;</li>
+          <li> on peut faire des challenges.</li>
+        </ul>
+    
+        <p>+- n’est pas spécifique au vélo, propose les mêmes services aux joggeurs, trailers, kayakistes, etc.</p>
+        
+        <h4 class="title title--mini">Points négatifs</h4>
+        <ul>
+          <li> obligation de s’abonner pour créer un itinéraire&#8239;;</li>
+          <li> pour se créer des objectifs, il faut s’abonner et donc payer&#8239;;</li>
+          <li> pour avoir accès à toutes les fonctionnalités il faut payer.</li>
+        </ul>
+      </div>
+
+      <figure class="fig">
+        <img class="strava photo" src="assets/images/case-study/strava@1x.jpg"
+        alt="Site de strava"
+        srcset="assets/images/case-study/strava@1x.jpg 1x,
+        assets/images/case-study/strava@2x.jpg 2x"
+        loading="lazy"
+        decoding="async">
+      </figure>
+      <figcaption>Site de Strava.</figcaption>
+    </section>
+
+    <section>
+        <h2 class="title title--medium">Choix du nom</h2>
+
+        <p>Puisque les idées viennent toujours plus facilement en discutant avec les autres, avec la classe, nous nous sommes mis en groupe et avons réfléchi aux projets des autres pour trouver un nom. On a écrit une trentaine de noms que je pourrais utiliser pour mon application et parmi ceux-ci, j’ai sélectionné les cinq qui me plaisaient le plus.</p>
+        <ul>
+          <li class="li"> Bike Discovery&#8239;;</li>
+          <li class="li"> Vélorama&#8239;;</li>
+          <li class="li"> Let’s bike&#8239;;</li>
+          <li class="li"> Sunride&#8239;;</li>
+          <li class="li"> Sport and relax.</li>
+        </ul>
+        
+        <p>Nous avons voté et Vélorama est celui qui est ressorti. Sauf que je n’étais pas satisfaite et qu’en en parlant autour de moi, beaucoup de gens m’ont dit que ce nom leur faisait penser à Bricorama, Télérama,&#8239;…
+        J’ai donc refait un tour de classe mais cette fois avec les deux classes et j’ai sélectionné trois noms parmis les cinq présélectionnés&#8239;:</p>
+        <ul>
+          <li class="li"> Bike Discovery&#8239;;</li>
+          <li class="li"> Let’s bike&#8239;;</li>
+          <li class="li"> Sunride.</li>
+        </ul>
+        <p>La majorité a préféré &laquo;Let’s bike&raquo; pour le côté entraînant et motivant.</p>
+    </section>
+
+    <section>
+        <h2 class="title title--medium">User Journey</h2>
+
+        <p>Je me suis mise dans la peau de quatre utilisateurs potentiels et j’ai retracé les chemins qu’ils feraient sur mon application et les problèmes qu'ils pourraient rencontrer afin de trouver des solutions pour améliorer au mieux l’expérience utilisateur. J'ai pris en compte leurs environnement social, matériel, les sentiments aux différentes étapes,&#8239;… J’en ai tiré huit solutions&#8239;: </p>
+
+        <ul>
+          <li> si l’utilisateur est interrompu lors de sa recherche, la page &laquo;favoris&raquo; lui permettra de sauvegarder les parcours qui l’intéressent et de ne pas avoir du mal à les retrouver par la suite&#8239;;</li>
+          <li> beaucoup d’utilisateurs font des sorties en groupe ou souhaitent simplement montrer leurs parcours préférés à d’autres personnes.Grâce aux boutons “partager”, ils peuvent partager les parcours trouvés et même ceux qu’ils ont créés eux-mêmes&#8239;;</li>
+          <li> pour satisfaire les utilisateurs qui ont vite tendance à s’ennuyer, mise en place d’une activité durant le tour&#8239;;</li>
+          <li> si les itinéraires proposés par l’application ne satisfont pas l'utilisateur ou s’il souhaite juste faire un tour qu’il a imaginé, il a la possibilité de créer son propre parcours (et même de placer une activité s’il le souhaite)&#8239;;</li>
+          <li> si quelque temps plus tard l’utilisateur souhaite retourner sur un parcours qu’il a déjà emprunté, il peut se rendre sur l’historique&#8239;;</li>
+          <li> à chaque fois que l’utilisateur recherche un parcours, une alerte box apparaît pour lui signaler sur quel type de parcours il se trouve (VTT ou vélo de route) et l’invite à le modifier si ça ne lui convient pas&#8239;;</li>
+          <li> en ce qui concerne les activités, un lien qui redirige vers le site de l’activité est toujours mis dans le résumé du parcours (pour vérifier les horaires par exemple)&#8239;;</li>
+          <li> si un problème arrive à l’utilisateur pendant sa sortie (travaux, routes dégradées,&#8239;…), il peut laisser des commentaires et noter le parcours pour prévenir les autres utilisateurs. Après vérification, l’application retire le parcours des propositions tant que le problème n’est pas réglé.</li>
+        </ul>
+
+        <figure class="fig">
+          <img class="user photo" src="assets/images/case-study/user-journey@1x.jpg"
+          alt="Mon user journey"
+          srcset="assets/images/case-study/user-journey@1x.jpg 1x,
+          assets/images/case-study/user-journey@2x.jpg 2x"
+          loading="lazy"
+          decoding="async">
+        </figure>
+        <figcaption>User journey.</figcaption>
+      </section>
+    </section>
+    
+    <section>
+        <h2 class="title title--medium">Produit minimum viable</h2>
+
+        <h3 class="title title--small">Prototype papier</h3>
+
+        <p>Avant de commencer mon produit minimum viable, j’ai tout d’abord fait un petit prototype papier, histoire de placer rapidement les fonctionnalités essentielles de mon application. J’aime bien passer par un prototype papier au début, je trouve que ça va plus vite et que c’est un bon moyen de s’imaginer comment sera notre prototype sur ordinateur.</p>
+        
+        <figure class="fig">
+          <picture class="photo">
+            <source media="(min-width: 1000px)" srcset="assets/images/case-study/prot_papier_large@1x.png 1x, 
+            aassets/images/case-study/prot_papier_large@2x.png 2x">   
+            <source media="(min-width: 500px)" srcset="assets/images/case-study/prot_papier_medium@1x.png 1x, 
+            assets/images/case-study/prot_papier_medium@2x.png 2x">
+            <img class="papier" src="assets/images/case-study/prot_papier_small@1x.png" alt="Photo dépassement">
+          </picture>
+          <figcaption>Prototype papier.</figcaption>
+        </figure>
+
+        <h3 class="title title--small">Prototype ordinateur</h3>
+
+        <h4 class="title title--mini">Logo</h4>
+
+        <p>Je suis passée par plusieurs logos avant de trouver le bon. Je suis d’abord partie sur l’idée du parcours. Puis du sourire, de l'amusement. Finalement je me suis arrêtée sur un &laquo;S&raquo; inversé qui représente un parcours et qui en même temps donne de la &laquo;vitesse&raquo; à mon logo. J’ai passé beaucoup de temps sur ce logo et encore aujourd’hui je n’en suis pas totalement satisfaite, j’aimerais l’améliorer à l’avenir.</p>
+        <figure class="fig">
+          <img class="test-logo photo" src="assets/images/case-study/logo01.svg"
+          alt="test logo 01"
+          width="300"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Test de logo 01.</figcaption>
+        </figure>
+
+        <figure class="fig">
+          <img class="test-logo photo" src="assets/images/case-study/logo04.svg"
+          alt="test logo 02"
+          width="300"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Test de logo 02.</figcaption>
+        </figure>
+
+        <figure class="fig">
+          <img class="test-logo photo" src="assets/images/case-study/logo07.svg"
+          alt="test logo 03"
+          width="300"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Test de logo 03.</figcaption>
+        </figure>
+
+        <figure class="fig">
+          <img class="test-logo photo" src="assets/images/case-study/logo09.svg"
+          alt="test logo 04"
+          width="300"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Test de logo 04.</figcaption>
+        </figure>
+
+        <figure class="fig">
+          <img class="test-logo photo" src="assets/images/landing/logo-let'sbike.svg"
+          alt="test logo 04"
+          width="300"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Logo final.</figcaption>
+        </figure>
+
+
+        <h4 class="title title--mini">Wireframe</h4>
+
+        <p>C’est la partie qui m’a pris le plus de temps mais j’ai vraiment apprécié y travailler. J’ai fait énormément d’itérations sur ce prototype.</p>
+
+        <p>Pour la page d’accueil, suite à mes recherches et au moodboard, j’étais partie sur une illustration avec un beau paysage et un vélo dedans. Mais après réflexion, je me suis rendu compte que pour arriver à une belle illustration, il faut énormément de temps (travail sur les ombres, la perspective, les textures,&#8239;…), temps que de toute évidence je n’ai pas. J’ai donc mis de côté cette option et ai réfléchi à un moyen plus efficace de mettre en avant les valeurs que prône mon application. J’ai pensé à des photos que je mettrais sur ma page d’accueil et une vidéo dans ce Case-Study. J’ai imaginé plusieurs photos pour mettre en avant les différents utilisateurs (VTT, vélo de route et balade familiale) et j’ai bloqué une après-midi pour faire les photos et la vidéo (je remercie d’ailleurs Diego Poelaert, Damien Poelaert et Gaëlle Bringard pour leur participation). Quand j’ai montré à Monsieur Bourgeaux les photos sur mon prototype, il m’a fait deux remarques très intéressantes&#8239;:</p>
+        <ul>
+          <li> les photos montrent des gens qui roulent à vélo mais pas le concept même de mon application&#8239;;</li>
+          <li> il n’y a pas de femmes présentes sur les photos (pour des raisons d’organisation malheureusement).</li>
+        </ul>
+     
+        <p>Il m’a donc conseillé de mettre ma vidéo promotionnelle directement sur ma page d'accueil. Ce que j’ai fait et j’en suis très contente, elle est plus complète que mes photos et montre plus de choses. J’ai bien aimé faire cette vidéo et réfléchir aux différents plans, au scénario,&#8239;…</p>
+
+        <p>Je suis partie sur un design simple et épuré, j’avais envie d’aller à l’essentiel puisque mon application n’est qu’une aide et que l’utilisateur veut aller rapidement à l'information. J’ai essayé de me mettre à la place de l’utilisateur, que tout soit clair, lisible et instinctif.</p>
+    </section>
+    
+    <section>
+        <h2 class="title title--medium">Tests utilisateurs</h2>
+
+        <p>Une fois le prototype fini, il est essentiel de le faire tester par des utilisateurs afin de vérifier qu’il est clair, ergonomique, facile d’utilisation,&#8239;… Ces tests utilisateurs permettent aussi d’avoir des retours des testeurs et aussi de pouvoir itérer et améliorer le projet grâce aux problèmes qu’ils ont rencontrés. J’ai fait tester mon projet par sept testeurs.</p>
+
+        <div>
+          <h3 class="title title--small">Mise en situation</h3>
+
+          <p>Demain, il fait beau et vous et vos amis avez envie de faire une balade à vélo de route, de plus ou moins 30km. Vous souhaitez vous arrêter dans un café pour faire une pause pendant votre tour. Vous téléchargez l’application Let’s bike pour trouver un parcours qui pourrait correspondre à vos besoins&#8239;…
+          Tous mes testeurs ont atteint leur objectif sans problèmes. J’ai quand même repéré trois gros soucis durant ces tests&#8239;: on ne pouvait pas revenir à la page d’accueil, il n'y avait pas d’espace pour écrire un commentaire, et j’avais utilisé deux systèmes de notes différents pour les parcours. Le reste n’était que des petits détails (erreur dans l’animation, fautes d’orthographes,&#8239;…).</p>
+        </div>
+       
+        <div>
+          <h3 class="title title--small">Testeur 1</h3>
+
+          <ul>
+            <li> le format de téléphone empêche de voir la barre du menu, le test se poursuit sur l’ordinateur&#8239;;</li>
+            <li> au début, difficile de comprendre comment adobe xd fonctionne&#8239;;</li>
+            <li> dans &laquo;Créer&raquo; les boutons passent devant la barre du menu&#8239;;</li>
+            <li> il lui a fallu du temps pour comprendre les boutons sur la page “Créer”&#8239;;</li>
+            <li> dans les filtres, il a tout de suite compris qu'il fallait glisser sur le 30 pour choisir le nombre de kilomètres&#8239;;</li>
+            <li> les filtres fonctionnent bien, l’utilisateur comprend vite ce qu’il doit faire&#8239;;</li>
+            <li> problème avec la carte quand elle est sélectionnée&#8239;;</li>
+            <li> comprend bien les commentaires et le résumé mais me fait remarquer qu’il ne peut pas écrire de commentaires.</li>
+          </ul>
+
+          <p>Conclusion de ce testeur&#8239;:&#8239;&laquo;Application très cool, beaucoup de choix pour personnaliser le parcours, le site est assez clair&raquo;.</p>
+        </div>
+
+
+        <div>
+          <h3 class="title title--small">Testeur 2</h3>
+
+          <ul>
+            <li> le bouton “télécharger” ne fonctionne pas&#8239;;</li>
+            <li> changer l'icône du tracé dans &laquo;Créer&raquo;, pas assez claire&#8239;;</li>
+            <li> retirer le commentaire avec la glace (entre-temps l’activité est devenue un café et pas une glace).</li>
+          </ul>
+
+          <p>Le test se déroule sans problème, très facilement. Il réussit sa mission sans difficulté. Le testeur n’est pas perturbé malgré quelques petits problèmes.</p>
+
+          <p>Conclusion de ce testeur&#8239;:&#8239;&laquo;Cette application conseille sur les meilleurs parcours, c’est intéressant&raquo;.</p>
+
+          <figure class="fig">
+            <img class="test01 photo" src="assets/images/case-study/test01@1x.jpg"
+            alt="testeur 02"
+            srcset="assets/images/case-study/test01@1x.jpg 1x,
+            assets/images/case-study/test01@2x.jpg 2x"
+            loading="lazy"
+            decoding="async">
+            <figcaption>Test avec le deuxième testeur.</figcaption>
+          </figure>
+        </div>
+
+        <div>
+          <h3 class="title title--small">Testeur 3</h3>
+
+          <ul>
+            <li> le titre de la catégorie &laquo;paysage&raquo; n’est pas clair => mettre &laquo;caractéristique&raquo; à la place&#8239;;</li>
+            <li> correction des fautes d'orthographe&#8239;;</li>
+            <li> mélange de deux systèmes de cotation pour les coeurs. Mélange entre les &laquo;J'aime&raquo; et les &laquo;2/5&raquo;. En choisir une des deux&#8239;;</li>
+            <li> encore oublié de changer le commentaire avec la glace&#8239;;</li>
+            <li> être plus logique dans mon calcul de la durée estimée du parcours : 50 min pour 30 kilomètres n’est pas réaliste => mettre 1h45&#8239;;</li>
+            <li> enlever les grilles dans l'historique.</li>
+          </ul>
+
+          <p>L’objectif est atteint sans soucis, juste quelques petits détails à régler.</p>
+
+          <p>Conclusion de la testeuse&#8239;:&#8239;&laquo;En vrai elle a l'air trop stylée ton app, elle donne envie d’être téléchargée et utilisée. Ça a l'air pratique. Espace &laquo;commentaires&raquo; particulièrement intéressant. Très bonne idée.&raquo;</p>
+        </div>
+
+        <div>
+          <h3 class="title title--small">Testeur 4</h3>
+
+          <ul>
+            <li> corrections d’autres fautes d’orthographe&#8239;;</li>
+            <li> quand le parcours est sélectionné, vérifier la carte parce qu’elle agit bizarrement&#8239;;</li>
+            <li> dans &laquo;télécharger&raquo;, changer le 50 min par 1h45&#8239;;</li>
+            <li> après les &laquo;;&raquo; mettre un espace&#8239;;</li>
+            <li> dans &laquo;Créer&raquo;, la barre du menu passe en dessous&#8239;;</li>
+            <li> recalculer les données (kilomètres, dénivelés, …)&#8239;;</li>
+            <li> problème avec les activités et problème avec les titres dans les filtres&#8239;;</li>
+            <li> dans les filtres pour les kilomètres, mettre &laquo;indiquez un kilométrage moyen&raquo;&#8239;;</li>
+            <li> manque une animation sur une des pages &laquo;filtres&raquo;&#8239;;</li>
+            <li> problème&#8239;:&#8239;on ne peut pas retourner sur la page d'accueil.</li>
+          </ul>
+
+          <p>Objectif atteint malgré les quelques problèmes.</p>
+
+          <p>Conclusion de la testeuse&#8239;: &laquo;Application très sympa mais attention aux fautes d'orthographe&raquo;.</p>
+        </div>
+
+        <div>
+            <h3 class="title title--small">Testeur 5</h3>
+
+            <ul>
+              <li> manque un point bleu qui représente l’activité sur une des cartes&#8239;;</li>
+              <li> dans les filtres, il est un peu déstabilisé parce qu’il n’y a pas de titre au type de sortie&#8239;;</li>
+              <li> pouvoir changer les filtres dans la page même après sélection&#8239;;</li>
+              <li> revenir en arrière, ça, c'est bien fait.</li>
+            </ul>
+
+            <p>L’utilisateur a atteint son objectif facilement.</p>
+
+            <p>Conclusion du testeur : &laquo;En vacances, je téléchargerais d’office cette application. On sait tout sur le parcours, c’est vraiment utile. Si c’est disponible sur téléphone, c’est encore mieux parce que tout le monde n’a pas de GPS&raquo;.</p>
+
+            <figure class="fig">
+              <img class="test02 photo" src="assets/images/case-study/test02@1x.jpg"
+              alt="testeur 05"
+              srcset="assets/images/case-study/test02@1x.jpg 1x,
+              assets/images/case-study/test02@2x.jpg 2x"
+              loading="lazy"
+              decoding="async">
+              <figcaption>Test avec le cinquième testeur.</figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <h3 class="title title--small">Testeur 6</h3>
+
+          <ul>
+            <li> a été perturbé par les filtres sur la map, était un peu perdu&#8239;;</li>
+            <li> difficulté pour changer le kilométrage&#8239;;</li>
+            <li> problème avec le menu bar dans &laquo;Commenter”&#8239;;</li>
+            <li> mettre des animations plus poussées dans le profil.</li>
+          </ul>
+
+          <p>Petit cafouillage au niveau de la carte et XD bugue un peu.</p>
+
+          <p>Conclusion du testeur&#8239;:&#8239;&laquo;A l’avenir je téléchargerais cette application, clairement&#8239;! On peut créer un parcours ou en télécharger, on peut échanger avec les autres utilisateurs,&#8239;... C’est une application qui est très personnalisable, très complète. A l’avenir, je rajouterais peut-être quelques dessins.&raquo;</p>
+          </div>
+          
+          <div>
+            <h3 class="title title--small">Testeur 7</h3>
+
+          <ul>
+            <li> &laquo;Votre itinéraire&raquo; devrait être &laquo;Mis en ligne par vous&raquo;&#8239;;</li>
+            <li> dire tout le temps &laquo;vélo de route&raquo; (parfois j’ai mis &laquo;Vélo de course&raquo;).</li>
+          </ul>
+
+          <p>Le testeur n’a pas rencontré de problème.</p>
+
+          <p>Conclusion du testeur&#8239;: &laquo;Oui je téléchargerais cette application. Elle correspond à tout ce qui est annoncé.&raquo;</p>
+
+          <p>Dans ce Case-Study, je ne vous montrerai que trois versions de mon prototype, mais je vous invite à cliquer sur le bouton ci-dessous pour voir toutes les itérations.</p>
+
+          <figure class="fig">
+            <img class="test03 photo" src="assets/images/case-study/test03@1x.jpg"
+            alt="testeur 07"
+            srcset="assets/images/case-study/test03@1x.jpg 1x,
+            assets/images/case-study/test03@2x.jpg 2x"
+            loading="lazy"
+            decoding="async">
+          </figure>
+          <figcaption>Test avec le septième testeur.</figcaption>
+        </div>
+    </section>
+    
+    <section>
+        <h2 class="title title--medium">Code</h2>
+
+        <p>Après toutes ces étapes, nous voici à la partie la plus périlleuse pour moi&#8239;: le code. Pour ce TFA, j’ai dû coder une page de présentation ainsi qu’un Case-Study. Après avoir fait un prototype de ceux-ci, je me suis lancée dans le code. La tâche était d’autant plus difficile que je devais utiliser un workflow, le SCSS et faire des commit sur Github à chaque étape. J’ai aussi fait des animations en GSAP afin de rendre ces pages un peu plus vivantes. 
+        Même si le code n’est pas la partie la plus facile pour moi, je m’en suis sortie et je suis contente de m’être donnée à fond.</p>
+        <figure class="fig">
+          <img class="code photo" src="assets/images/case-study/code@1x.jpg"
+          alt="codage"
+          srcset="assets/images/case-study/code@1x.jpg 1x,
+          assets/images/case-study/code@2x.jpg 2x"
+          loading="lazy"
+          decoding="async">
+          <figcaption>Moi qui code.</figcaption>
+        </figure>
+    </section>
+    
+    <section>
+        <h2 class="title title--medium">Conclusion</h2>
+
+        <p>En conclusion, ce travail de fin d'année m’a appris énormément de choses. Devoir diriger un gros projet de A à Z toute seule m’a fait prendre conscience de l’importance de bien savoir gérer son temps. La recherche d’idées, les interviews, les enquêtes, les users journeys, les prototypes, les tests utilisateurs, le code et j’en passe. Toutes ces étapes sont essentielles à la bonne réalisation d’un projet.</p>
+    
+        <p>En ce qui concerne mon hypothèse, cinq testeurs sur sept ont affirmé qu’ils utiliseraient cette application lors de leurs prochaines sorties, si elle existait. Le panel de testeurs était trop petit pour valider cette hypothèse, mais on est relativement proche des 80% espérés. Avec un plus gros panel, on les atteindrait sans doute. Tout le monde a bien aimé mon application et l’a trouvée intéressante.</p>
+    
+        <p>J’ai vraiment aimé aller auprès des potentiels utilisateurs, leur poser des questions, en savoir plus sur leurs attentes, discuter avec eux, … Ces deux mois à travailler sur le TFA sont passés à toute vitesse.</p>
+    </section>
+</main>
+
+<footer class="footer">
+  <ul class="foo">
+    <li><a href="case-study.html">Case-Study</a></li>
+    <li><a href="ui-kit.html">Ui-Kit</a></li>
+    <li><a href="credits.html">Crédits</a></li>
+  </ul>
+
+  <ul class="foo">
+    <li><a href="http://dwm.re/" target="_blank"><img class="dwt" src="assets/images/logo-dwt-withe.svg" alt="Logo DWT"></a></li>
+    <li><a href="http://audrey-poelaert.be/"><small>©<span id="date"></span> Audrey Poelaert</small></a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

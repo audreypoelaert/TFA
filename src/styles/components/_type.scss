@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/*landing mobile*/
+/*landing*/
 body{
   font-family: $font-text;
   font-size: 18px;
@@ -47,5 +47,74 @@ body{
 
   .p-large{
     font-size: 25px;
+  }
+}
+
+/*case-study*/
+body{
+  font-family: $font-text;
+  font-size: 18px;
+  line-height: $interlignage-case;
+  color: $p-color;
+}
+
+.para-large{
+  font-weight: 700;
+}
+
+.title{
+  font-size: 72px;
+  color: $h1-color;
+  line-height: $interlignage;
+}
+
+.title--medium{
+  font-size: 51px;
+  color: $h2-color;
+}
+
+.title--small{
+  font-size: 36px;
+  color: $h3-color;
+}
+
+.title--mini{
+  font-size: 25px;
+  color: $h3-color;
+}
+
+@media (min-width: 500px){
+  .title{
+    font-size: 102px;
+  }
+
+  .title--medium{
+    font-size: 72px;
+  }
+
+  .title--small{
+    font-size: 51px;
+  }
+
+  .title--mini{
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1000px){
+  .title{
+    font-size: 144px;
+  }
+
+  .title--medium{
+    font-size: 102px;
+  }
+
+  .title--small{
+    font-size: 72px;
+  }
+
+  .title--mini{
+    font-size: 51px;
   }
 }
