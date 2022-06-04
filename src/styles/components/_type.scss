@@ -71,16 +71,28 @@ body{
 .title--medium{
   font-size: 51px;
   color: $h2-color;
+  margin-bottom: 29px;
+  margin-top: 116px;
+
 }
 
 .title--small{
   font-size: 36px;
   color: $h3-color;
+  margin-bottom: 29px;
+  margin-top: 58px;
 }
 
 .title--mini{
   font-size: 25px;
   color: $h3-color;
+  margin-bottom: 29px;
+  margin-top: 29px;
+}
+
+.legende{
+  font-style: italic;
+  margin-bottom: 29px;
 }
 
 @media (min-width: 500px){
@@ -101,7 +113,7 @@ body{
   }
 }
 
-@media (min-width: 1000px){
+/*@media (min-width: 1000px){
   .title{
     font-size: 144px;
   }
@@ -117,4 +129,4 @@ body{
   .title--mini{
     font-size: 51px;
   }
-}
+}*/
