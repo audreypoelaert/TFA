@@ -4,8 +4,44 @@ body{
     max-width: 1400px;
 }
 
+.proto_final{
+    width: 335px;
+}
+
+@media (min-width: 500px){
+    .proto_final{
+        width: 390px;
+    }
+    .version{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .marge-left{
+        margin-left: 18px;
+    }
+ 
+    .marge-right{
+        margin-right: 18px;
+    }
+
+    .user-journey{
+        width: 600px;
+    }
+}
 
 @media (min-width: 1000px){
+    .proto_final{
+        width: 390px;
+    }
+    
+    .version{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
    .marge-left{
        margin-left: 18px;
    }
