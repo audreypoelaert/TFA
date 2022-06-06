@@ -16,8 +16,8 @@ videoDivs.forEach((videoDiv, i) => {
     end: 'bottom top',
     scrub: 0.5,
     markers: true,
-    onEnter: () => videoElem.play(),
-    onEnterBack: () => videoElem.play(),
+    onEnter: () => videoElem.load(),
+    onEnterBack: () => videoElem.load(),
     onLeave: () => videoElem.pause(),
     onLeaveBack: () => videoElem.pause(),
   });
@@ -140,7 +140,7 @@ mood.from(".mvelo", {
     end:'bottom top',
     scrub: 0.5,
   },
-});
+}, "+=2");
 mood.from(".msport", {
   x: -100,
   scrollTrigger : {
@@ -149,26 +149,30 @@ mood.from(".msport", {
     end:'bottom top',
     scrub: 0.5,
   },
-});
+}, "+=2");
 
 /*Slider*/
 
-var slideIndex = 1;
-slider(slideIndex);
+let index = 1;
+slides(index);
 
-function plusSlider(n) {
-  slider(slideIndex += n);
+element.addEventListener("click", function plusSlides(n) {
+  slides(index += n);
+});
+
+function currentSlide(n) {
+  slides(index = n);
 }
 
-function slider(n) {
-  var i;
-  var change = document.getElementsByClassName("slide");
-  if (n > change.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = change.length};
-  for (i = 0; i < change.length; i++) {
-    change[i].style.display = "none";
+function slides(n) {
+  let i;
+  let lapin = document.getElementsByClassName("slide");
+  if (n > lapin.length) {index = 1}
+  if (n < 1) {index = lapin.length}
+  for (i = 0; i < lapin.length; i++) {
+    lapin[i].style.display = "none";
   }
-  change[slideIndex -1].style.display = "block";
+  lapin[index-1].style.display = "block";
 }
 
 

@@ -87,8 +87,11 @@ body{
 .photo{
     width: 325px;
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
+}
+
+.photo--ui{
+    width: 200px;
 }
 
 .fig{
@@ -203,7 +206,12 @@ body{
     .title-landing--mod{
         margin-bottom: 0;
     }
-    
+
+    .photo--ui{
+        width: 150px;
+        margin-left: 36px;
+        margin-right: 36px;
+    }
 }
 
 
@@ -285,5 +293,11 @@ body{
 
     .marge02{
         margin-left: 36px;
+    }
+
+    .photo--ui{
+        width: 200px;
+        margin-left: 36px;
+        margin-right: 36px;
     }
 }

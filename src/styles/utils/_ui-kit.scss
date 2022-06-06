@@ -1,0 +1,58 @@
+.couleurs{
+    display: flex;
+    justify-content: space-between;
+}
+.couleur1{
+    background-color: #F0F4FC;
+    padding: 15px;
+}
+.couleur2{
+    background-color: #E5E5E5;
+    padding: 15px;
+}
+.couleur3{
+    background-color: #dfe8f9;
+    padding: 15px;
+}
+.couleur4{
+    background-color: #bccef2;
+    padding: 15px;
+}
+.couleur5{
+    background-color: #9bb6eb;
+    padding: 15px;
+}
+.couleur6{
+    background-color: #78D1FF;
+    padding: 15px;
+}
+.couleur7{
+    background-color: #74d1b1;
+    padding: 15px;
+}
+.couleur8{
+    background-color: #02484e;
+    padding: 15px;
+}
+.couleur9{
+    background-color: #011C1E;
+    padding: 15px;
+}
+.couleur10{
+    background-color: #000607;
+    padding: 15px;
+}
+
+@media (min-width: 500px){
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1000px){
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+    }
+}

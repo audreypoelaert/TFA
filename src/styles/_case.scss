@@ -29,6 +29,44 @@ body{
     .user-journey{
         width: 600px;
     }
+
+    .slider{
+        position: relative;
+        margin: auto;
+    }
+
+    .slide{
+        width: 500px;
+    }
+
+    .precedent, .suivant{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 15px;
+        color: $color-text;
+        transition: 1s ease;
+        user-select: none;
+    }
+
+    .precedent:hover, .suivant:hover{
+        background-color: #000607;
+    }
+
+    .suivant{
+        right: 0;
+    }
+
+    .deco{
+        animation-duration: 2s;
+        animation-name: deco;
+    }
+
+    @keyframes deco {
+        from{opacity: 5}
+        to{opacity: 1;}
+    }
 }
 
 @media (min-width: 1000px){
