@@ -4,6 +4,10 @@ body{
     max-width: 1400px;
 }
 
+.margin_mob{
+margin-bottom: 126px;
+}
+
 .proto_final{
     width: 335px;
 }
@@ -24,7 +28,7 @@ body{
     width: auto;
     padding: 15px;
     color: $color-text;
-    transition: 1s ease;
+    transition: 0.5s ease;
     user-select: none;
 }
 
@@ -33,7 +37,7 @@ body{
 }
 
 .suivant{
-    right: 0;
+    right: 18px;
 }
 
 .deco{
@@ -77,6 +81,14 @@ body{
 
     .user-journey{
         width: 600px;
+    }
+
+    .slide{
+        text-align: center;
+    }
+
+    .suivant{
+        right: 0;
     }
 
 }

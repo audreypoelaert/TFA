@@ -209,48 +209,50 @@ if (msport){
 
 /*Slider*/
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var index = 1;
+showSlides(index);
 
-let prevButton = document.querySelector(".precedent");
-if(prevButton){
-    prevButton.addEventListener('click', () => {
+let preceBtn = document.querySelector(".precedent");
+if(preceBtn){
+  preceBtn.addEventListener('click', () => {
         plusSlides(-1);
     });
 }
 
-let nextButton = document.querySelector(".suivant");
-if(nextButton){
-    nextButton.addEventListener('click', () => {
+let suivBtn = document.querySelector(".suivant");
+if(suivBtn){
+    suivBtn.addEventListener('click', () => {
         plusSlides(1);
     });
 }
 
-
-
 function plusSlides(n) {
-    showSlides(slideIndex += n);
+    showSlides(index += n);
 }
 
 
 function currentSlide(n) {
-    showSlides(slideIndex = n);
+    showSlides(index = n);
 }
 
 function showSlides(n) {
+  var slider = document.querySelector(".slide");
+  if (slider){
     var i;
     var slides = document.querySelectorAll(".slide");
     if (n > slides.length) {
-        slideIndex = 1;
+        index = 1;
     } 
 
     if (n < 1) {
-        slideIndex = slides.length;
+        index = slides.length;
     }
 
     for (i = 0; i < slides.length; i++) {
         slides[i].classList.add("hide");
     }
 
-    slides[slideIndex-1].classList.remove("hide"); 
+    slides[index-1].classList.remove("hide"); 
 }
+  }
+   
