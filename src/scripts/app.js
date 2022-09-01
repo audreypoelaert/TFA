@@ -15,16 +15,36 @@ videoDivs.forEach((videoDiv, i) => {
   ScrollTrigger.create({
     trigger: videoElem,
     start: 'top bottom',
-    end: 'bottom top',
-    scrub: 0.5,
-    markers: true,
+    end: 'bottom bottom',
     onEnter: () => videoElem.load(),
     onEnterBack: () => videoElem.load(),
     onLeave: () => videoElem.pause(),
     onLeaveBack: () => videoElem.pause(),
+    markers: true,
   });
   
 });
+
+let videoDivs02 = gsap.utils.toArray('.vid02');
+
+videoDivs02.forEach((videoDiv02, i) => {
+  
+  let videoElem02 = videoDiv02.querySelector('video')
+  
+  ScrollTrigger.create({
+    trigger: videoElem02,
+    start: 'top bottom',
+    end: 'bottom bottom',
+    onEnter: () => videoElem02.load(),
+    onEnterBack: () => videoElem02.load(),
+    onLeave: () => videoElem02.pause(),
+    onLeaveBack: () => videoElem02.pause(),
+    markers: true,
+  });
+  
+});
+
+
 
 /*button et mockups*/
 var verif = document.querySelector(".button__el");
@@ -43,13 +63,12 @@ if (verif){
 
 var mock1 = document.querySelector(".mockup1");
 if (mock1){
-    gsap.to(".mockup1", {
-    x: -800,
-    duration: 2,
-    markers: true,
+    gsap.from(".mockup1", {
+    x: -600,
+    duration: 1,
     scrollTrigger: {
       trigger: ".mockup1",
-      start:'center center',
+      start:'top top',
       end:'bottom top',
       scrub: 0.5,
     },
@@ -58,12 +77,12 @@ if (mock1){
 
 var mock2 = document.querySelector(".mockup2");
 if (mock2){
-  gsap.to(".mockup2", {
-    x: 800,
-    duration: 2,
+  gsap.from(".mockup2", {
+    x: 600,
+    duration: 1,
     scrollTrigger: {
       trigger: ".mockup2",
-      start:'center center',
+      start:'top top',
       end:'bottom top',
       scrub: 0.5,
     },
@@ -73,16 +92,16 @@ if (mock2){
 
 var mock3 = document.querySelector(".mockup3");
 if (mock3){
-  gsap.to(".mockup3", {
-    x: -800,
-    duration: 2,
+  gsap.from(".mockup3", {
+    x: -600,
+    duration: 1,
     scrollTrigger: {
       trigger: ".mockup3",
-      start:'center center',
+      start:'top top',
       end:'bottom top',
       scrub: 0.5,
     },
-  }, "+=2");
+  }, "+=1");
 }
 
 
@@ -104,7 +123,6 @@ if (logo2){
     },
   });
 }
-
 
 var logo1 = document.querySelector(".logo1");
 if (logo1){
